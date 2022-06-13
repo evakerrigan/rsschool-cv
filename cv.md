@@ -34,5 +34,5 @@ I'm a html-designer. My dream is to become a front-end developer.
 * Kemerovo State University, Faculty of Physics
 
 ## languages: ##
-* Russian ( native )
-* English ( A0, 3000 words )
+* Russian (native)
+* English (A0, 3000 words)
