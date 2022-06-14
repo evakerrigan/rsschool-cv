@@ -69,11 +69,12 @@
         </div>
     </header>
 
-    <div class="content">
+    <div class="main content">
         <div class="wrapper">
             <div class="left-block">
                 <div class="left-block-strip left-block-strip__content">
-                    <h2 id="education" class="content-title">Education</h2>
+                    <section id="education">
+                    <h2 class="content-title">Education</h2>
                     <ul class="content-education-list">
                         <li class="content-education-item">
                             <div class="content-education-date">2022</div>
@@ -116,16 +117,26 @@
                             <div class="content-education-place">Kemerovo State University</div>
                         </li>
                     </ul>
-                    <h2 id="hobbies" class="content-title">Hobbies</h2>
+                </section>
+            <section id="hobbies">
+                    <h2 class="content-title">Hobbies</h2>
                     <ul class="content-hobbies-list">
                         <li class="content-hobbies-item">Photography</li>
                         <li class="content-hobbies-item">Psychology</li>
                         <li class="content-hobbies-item">Travels</li>
-                    </ul>                    
+                    </ul> 
+                </section>  
+                <section id="english">
+                    <h2 class="content-title">English</h2>
+                    <p class="content-english-description">3000 words, but A0</p>
+                </section>                 
                 </div>
+                
             </div>
+           
             <div class="right-block">
-                <h2 id="expiriens" class="content-title">Expiriens</h2>
+            <section id="expiriens">
+                <h2 class="content-title">Expiriens</h2>
                 <ul class="content-expiriens-list">
                     <li class="content-expiriens-item expiriens-wrapper">
                         <div class="expiriens-left-block">
@@ -200,7 +211,9 @@
                         </div>
                     </li>
                 </ul>
-                <h2 id="skills" class="content-title">Skills</h2>
+            </section>
+        <section id="skills">
+                <h2 class="content-title">Skills</h2>
                 <ul class="content-skills-list">
                     <li class="content-skills-item"><span>JavaScript</span></li>
                     <li class="content-skills-item"><span>HTML</span></li>
@@ -210,8 +223,24 @@
                     <li class="content-skills-item"><span>GIT</span></li>
                     <li class="content-skills-item"><span>Pixel Perfect</span></li>                    
                 </ul>
-                <h2 class="content-title">English</h2>
-                <p class="content-english-description">3000 words, but A0</p>
+            </section>
+        <section id="code">
+                <h2 class="content-title">My code</h2>
+                <code class="content-code">
+                    function highAndLow(x) {<br/>
+
+                        let array = x.split(' ');<br/>
+                        
+                        let maxElement = Math.max(...array);<br/>
+                        let minElement = Math.min(...array);<br/>
+                        
+                        return [maxElement, minElement].join(' ');<br/>
+                        }<br/>
+                        alert(highAndLow("1 8 3 4 5"));
+
+
+                </code>
+            </section>
             </div>
         </div>
     </div>
