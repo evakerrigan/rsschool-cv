@@ -209,7 +209,7 @@ body {
   }
 }
 
-/******************** content ********************/
+/******************** main content ********************/
 .content {
   color: #555;
 }
@@ -373,6 +373,41 @@ body {
   .content-hobbies-item:before {
     top: 3px;
   }
+}
+
+/******************** portfolio ********************/
+.portfolio {
+  background-color: #171b26;
+  padding: 2vh 5% 1vh 5%;
+}
+
+.portfolio-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 80px;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio-item {
+  list-style-type: none;
+  width: 40%;
+  margin: 0 0 3vh 0;
+}
+
+.portfolio-img {
+  width: 100%;
 }
 
 /******************** footer ********************/
